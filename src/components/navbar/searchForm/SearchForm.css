@@ -1,0 +1,24 @@
+.search-inp {
+    width: 80%;
+    height: 45px;
+    border-radius: 20px;
+    border: black 2px solid;
+    background-color: white;
+}
+
+
+
+.search-btn {
+    color: white;
+    background-color: rgb(96, 154, 235);
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+.search-btn:hover {
+    background-color: rgb(47, 111, 202);
+}

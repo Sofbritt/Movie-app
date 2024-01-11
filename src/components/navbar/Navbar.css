@@ -1,0 +1,197 @@
+.navbar {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(57, 139, 157);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    cursor: pointer;
+
+}
+
+
+.logo {
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.rigth-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    cursor: pointer;
+}
+
+.search-icon {
+    color: rgb(80, 164, 255);
+    font-size: 20px
+}
+
+
+.search-div {
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 60%;
+}
+
+.close-icon {
+    color: rgb(45, 179, 209);
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+
+.search-movie-inp {
+
+    width: 98%;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+}
+
+.second-search-div {
+    background-image: url('https://winzoro.net/uploads/posts/2021-02/1612616071_preview.jpg');
+    height: 320px;
+    color: white;
+
+}
+
+.search-inp-div {
+
+    background-color: white;
+    border: 2px solid black;
+    width: 90%;
+    height: 45px;
+    border-radius: 20px;
+    color: rgb(112, 112, 112);
+    margin-left: 6%
+}
+
+
+.search-inp {
+    width: 80%;
+    border: none;
+    margin-top: 10px;
+}
+
+
+.sesrch-btn {
+    background-color: rgb(65, 171, 195);
+    width: 140px;
+    height: 45px;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    float: right;
+}
+
+
+.sesrch-btn:hover{
+    color: black;
+}
+
+.filtered-items {
+    background-color: white;
+    color: black;
+}
+
+.welcome-span {
+    width: 70%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.en-icon:hover {
+    color: black;
+}
+
+.question {
+    background-color: rgb(219, 243, 255);
+    border: 1px solid black;
+    width: 185px;
+    height: 55px;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 15%;
+    margin-top: 40px;
+
+}
+
+.choose-lang {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 6%;
+}
+
+.select-lang {
+    width: 255px;
+    height: 45px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: none;
+
+}
+
+.road-page-btn {
+    color: white;
+    background-color: rgb(65, 171, 195);
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.menuItems {
+    display: flex;
+  
+}
+
+.each-meniItem {
+    margin-left: 20px;
+}
+
+.sign-link{
+    color: white;
+    text-decoration: none;
+}
+
+.login-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media(max-width:800px){
+   
+    .logo {
+        width: 130px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .rigth-nav{
+       display: none;
+    }
+  
+}

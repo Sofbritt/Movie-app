@@ -1,0 +1,88 @@
+
+.login{
+   font-size: 15px;
+   padding: 15px;
+}
+
+
+.login-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-self: start;
+}
+
+.login-span{
+    display: flex;
+    justify-self: start;
+   
+}
+
+.label-inp {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.login-inp {
+    width: 90%;
+    height: 33px;
+    border: 1px solid rgb(93, 93, 93);
+}
+
+.login-inp:hover {
+    border: 1px solid rgb(44, 179, 242);
+}
+
+.login-btn{
+    color: white;
+    background-color: rgb(2, 151, 215);
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.reset-pass-btn{
+    color: rgb(2, 151, 215);
+    background-color: white;
+    font-size: 17px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.error-div{
+    width: 90%;
+    height: 125px;
+    border-radius: 20px;
+   margin-left: 5%;
+   color: white;
+   box-shadow: 4px 3px 11px -3px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 4px 3px 11px -3px rgba(0,0,0,0.75);
+   -moz-box-shadow: 4px 3px 11px -3px rgba(0,0,0,0.75);
+
+}
+.problem-span{
+    font-size: 22px;
+    background-color: rgb(191, 58, 58);
+   color: white;
+}
+
+.error-li{
+ 
+    color: black;
+
+}
+
+.resetPass-link{
+    color: rgb(2, 151, 215);
+    text-decoration: none;
+}
+

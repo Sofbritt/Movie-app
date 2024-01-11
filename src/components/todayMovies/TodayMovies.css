@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(216, 216, 255);
+}
+
+.movies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+
+
+.search-here {
+    color: rgb(80, 80, 214);
+    font-weight: 600;
+    font-size: 23px;
+
+}
+
+
+.movie-poster {
+    width: 200px;
+    height: 260px;
+    border-radius: 15px;
+
+}
+
+.movie-name:hover {
+    color: rgb(48, 144, 254);
+}
+
+.movie-year {
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+}
+
+.components-title {
+    margin-right: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.components-title:hover {
+    color: rgb(80, 80, 214);
+}
+
+
+.detail-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+
+.detail-link:hover {
+    color: rgb(48, 144, 254);
+
+}
+
+
+.slide {
+    width: 100%;
+    margin-top: 25px;
+
+
+}
+
+.error-span {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(179, 194, 237);
+    width: 420px;
+    height: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.fave-btn {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+
+.fave-btn:hover {
+    color: rgb(48, 144, 254);
+}
+
+.detail-fave-divs {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image-container {
+    position: relative;
+    transition: transform 0.2s;
+    width: 240px;
+    height: 420px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 16px 2px rgba(0, 0, 0, 0.67);
+    border-radius: 15px;
+}
+
+.image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+@media(max-width:800px){
+    
+    .components-div{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+}

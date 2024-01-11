@@ -1,0 +1,92 @@
+.sign-benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.form {
+
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.sign-inp {
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.label-inp {
+    display: flex;
+    justify-content: start;
+
+    padding: 10px;
+}
+
+.sign-inp:hover {
+    border: 1px solid rgb(66, 134, 217);
+}
+
+.sing-up-btn {
+    color: white;
+    background-color: rgb(127, 159, 183);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    margin: top 20px;
+    ;
+}
+
+.cancel-btn {
+    color: rgb(79, 180, 252);
+    width: 100px;
+    height: 40px;
+    border: 15px;
+    font-size: 16px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.Benefits {
+    width: 280px;
+    height: 450px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 2px 13px 0px rgba(0, 0, 0, 0.86);
+}
+
+.Benefits-title {
+    background-color: rgb(79, 180, 252);
+    border-radius: 15px;
+    height: 85px;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Benefits-h4 {
+    font-weight: 500;
+}
+
+.Benefits-h4:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.error-label {
+    color: red;
+}
+
+.sign-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}

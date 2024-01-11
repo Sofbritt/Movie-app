@@ -1,0 +1,39 @@
+.movie-genres {
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+
+
+.each-menu:hover {
+   color: rgb(57, 147, 195);
+    cursor: pointer;
+
+}
+
+.menu-links:hover {
+    color: rgb(18, 130, 191);
+    text-decoration: none;
+
+}
+
+@media(max-width:800px){
+    .movie-genres {
+        color: black;
+        font-size: 16px;
+        font-weight: 200;
+        background-color:white;
+        width: 150px;
+        height: 70px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 20px;
+    }
+}

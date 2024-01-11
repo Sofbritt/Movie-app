@@ -1,0 +1,55 @@
+.join-today {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-image: url('https://static.posters.cz/image/hp/65856.jpg');
+    color: white;
+}
+
+.join-p {
+    width: 80%;
+    padding: 10px;
+    font-size: 19px;
+
+}
+
+.sign-to-join {
+    background-color: rgb(82, 110, 234);
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    float: left;
+}
+
+.join-us-title {
+    font-size: 35px;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+
+.to-sign-btn {
+    text-decoration: none;
+    color: white
+}
+
+.to-sign-btn:hover {
+    color: black;
+}
+
+@media(max-width:800px) {
+   
+    .join-p {
+        width: 80%;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+
+    .second-p {
+        display: none;
+
+    }
+}
